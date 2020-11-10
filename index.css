@@ -1,0 +1,52 @@
+body{
+    background-image: url(imagenes/imagen3.jpg); 
+    
+    
+}
+@font-face{font-family: 'blue eyes'; src: url(../una-vida-saludable/fuentes/blueyes.otf)}
+
+#inicio{background-color: #f1b6365e; 
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+#contenido{font-family: 'Lobster', cursive; display: flex ; list-style: none;}
+.lista{text-decoration: none;
+     color: black;
+     font-size: 18px;
+     padding: 15px; 
+     margin: 20px;
+     background: #f3e8e800;
+    display: flex;
+    border-radius: 15px;} 
+.texto{
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: stretch;
+    align-items: center;
+    font-size: 120px;
+    font-family: 'blue eyes' ;
+
+    }
+}
+p{font-family: 'Oxygen', sans-serif;
+font-size: 15px;
+color: #000000;
+padding; 20px;
+margin: 20px;
+}
+
+.lista:hover{color: rgba(248, 232, 0, 0.664);
+background-color: rgba(241, 117, 14, 0.808);}
