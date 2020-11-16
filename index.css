@@ -7,7 +7,7 @@ body{background-image: url(imagenes/imagen7.jpg)
 }
 @font-face{font-family: 'blue eyes'; src: url(../una-vida-saludable/fuentes/blueyes.otf)}
 
-#inicio{background-color: #f1b6365e; 
+#inicio{background-color: #ffffff00; 
     display: flex;
     justify-content: center;
     display: flex;
@@ -16,6 +16,7 @@ body{background-image: url(imagenes/imagen7.jpg)
     justify-content: flex-end;
     align-content: stretch;
     align-items: flex-start;
+        
 
 }
 #contenido{font-family: 'Lobster', cursive; display: flex ; list-style: none;}
