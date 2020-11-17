@@ -6,6 +6,7 @@ body{background-image: url(imagenes/imagen7.jpg)
     
 }
 @font-face{font-family: 'blue eyes'; src: url(../una-vida-saludable/fuentes/blueyes.otf)}
+@font-face{font-family: 'Raleway'; src: url(../una-vida-saludable/fuentes/Raleway.otf)}
 
 #inicio{background-color: #ffffff00; 
     display: flex;
@@ -72,7 +73,10 @@ margin: 20px;
     justify-content: flex-end;
     align-content: stretch;
     align-items: center;
-    font-size: 70px;
+    font-size: 70px; @font-face {
+        font-family: ;
+        src: url();
+    }
 
 
 .lista:hover{color: rgba(248, 232, 0, 0.664);
