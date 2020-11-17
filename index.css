@@ -20,6 +20,18 @@ body{background-image: url(imagenes/imagen7.jpg)
 
 }
 #contenido{font-family: 'Lobster', cursive; display: flex ; list-style: none;}
+
+#registrate:{background-color: #ffffff00; 
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
 .lista{text-decoration: none;
      color: black;
      font-size: 18px;
