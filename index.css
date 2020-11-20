@@ -1,18 +1,23 @@
 body {
     background-image: url(imagenes/imagen7.jpg);
-    height: 80vh;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 @font-face{
-    font-family: 'blue_eyes';
-    src: url(../una-vida-saludable/fuentes/blue_eyes.zip)
+    font-family: 'blue eyes';
+    src: url(fuentes/blue_eyes.otf)
 }
 
 @font-face {
-    font-family: '';
-    src: url()
+    font-family: 'nugo';
+    src: url(fuentes/nugo.ttf)
+}
+
+@font-face {
+    font-family: 'supposition';
+    src: url(fuentes/Supposition.ttf)
 }
 
 #inicio {
@@ -70,15 +75,33 @@ body {
     align-content: stretch;
     align-items: center;
     font-size: 150px;  
-    font-family: 'blue_eyes';
+    font-family: 'blue eyes';
+    animation-name: colores;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
 }
 
 p {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 15px;
+    font-family: 'oxigen';
+    font-size: 20px;
     color: #000000;
     padding: 20px;
     margin: 20px;
+}
+.texto p {
+    font-family: 'blue eyes';
+    font-size: 150px;
+    animation-name: colores;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+.slogan p {
+    font-family: 'nugo';
+    font-size: 60px;
+    animation-name: animacion;
+    animation-duration: 5s;
+    
 }
 
 .slogan {
@@ -94,6 +117,7 @@ p {
     align-items: center;
     font-size: 70px;
     font-family: 'Raleway';
+    
 }
 
 .site-footer {padding-top: 20;
@@ -101,6 +125,25 @@ p {
     border-top: 1px solid #f1ad5e;
     background-color: rgb(250, 192, 106);
     width: auto;
+    
+}
+
+@keyframes colores{
+    0%{color: rgb(253, 255, 153)}
+    33%{color: rgb(185, 144, 90)}
+    76%{color: rgb(255, 197, 88)}
+    
+}
+@keyframes animacion{
+    from{
+        margin-left: 300%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+    
     
 }
 
