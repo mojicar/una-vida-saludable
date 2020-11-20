@@ -5,14 +5,14 @@ body {
     background-size: cover;
 }
 
-@font-face {
-    font-family: 'blue eyes';
-    src: url(../una-vida-saludable/fuentes/blueyes.otf)
+@font-face{
+    font-family: 'blue_eyes';
+    src: url(../una-vida-saludable/fuentes/blue_eyes.zip)
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('fuentes/static/Raleway-Regular.ttf')
+    font-family: '';
+    src: url()
 }
 
 #inicio {
@@ -35,7 +35,7 @@ body {
     list-style: none;
 }
 
-#registrate: {
+#registrate {
     background-color: #ffffff00;
     display: flex;
     justify-content: center;
@@ -69,15 +69,15 @@ body {
     justify-content: flex-end;
     align-content: stretch;
     align-items: center;
-    font-size: 150px;
-    font-family: 'blue eyes';
+    font-size: 150px;  
+    font-family: 'blue_eyes';
 }
 
 p {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
     color: #000000;
-    padding; 20px;
+    padding: 20px;
     margin: 20px;
 }
 
@@ -96,6 +96,13 @@ p {
     font-family: 'Raleway';
 }
 
+.site-footer {padding-top: 20;
+    padding-bottom: 20;
+    border-top: 1px solid #f1ad5e;
+    background-color: rgb(250, 192, 106);
+    width: auto;
+    
+}
 
 .lista:hover {
     color: rgba(248, 232, 0, 0.664);
