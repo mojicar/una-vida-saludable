@@ -2,8 +2,13 @@ body {
     background-image: url(imagenes/imagen7.jpg);
     height: 20vh;
     background-repeat: no-repeat;
+    background-size: contain;
+    background-color: lemonchiffon;
+    height: 20vh;
     background-size: cover;
 }
+
+
 
 @font-face{
     font-family: 'blue eyes';
@@ -19,9 +24,18 @@ body {
     font-family: 'supposition';
     src: url(fuentes/Supposition.ttf)
 }
+@font-face{
+    font-family: 'nest';
+    src: url(fuentes/Nest.ttf)
+}
+
+@font-face{
+    font-family: 'grosella';
+    src: url(fuentes/Grosella.ttf)
+}
 
 #inicio {
-    background-color: #ffffff00;
+    
     display: flex;
     justify-content: center;
     display: flex;
@@ -52,10 +66,11 @@ body {
     align-items: flex-start;
 }
 
+
 .lista {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     padding: 15px;
     margin: 20px;
     background: #f3e8e800;
@@ -67,14 +82,14 @@ body {
     background: rgba(255, 255, 255, 0);
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-content: stretch;
     align-items: center;
-    font-size: 150px;  
+    font-size: 170px;  
     font-family: 'blue eyes';
     animation-name: colores;
     animation-iteration-count: infinite;
@@ -82,15 +97,26 @@ body {
 }
 
 p {
-    font-family: 'oxigen';
-    font-size: 20px;
+    font-family: 'nest';
+    font-size: 30px;
+    color: #000000;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+b {
+    font-family: 'supposition';
+    font-size: 70px;
     color: #000000;
     padding: 20px;
     margin: 20px;
+    margin-top: 500px;
 }
 .texto p {
     font-family: 'blue eyes';
-    font-size: 150px;
+    font-size: 160px;
+    margin-top: 150px;
     animation-name: colores;
     animation-iteration-count: infinite;
     animation-duration: 15s;
@@ -98,7 +124,9 @@ p {
 
 .slogan p {
     font-family: 'nugo';
-    font-size: 60px;
+    font-size: 70px;
+    margin-right: 60px ;
+    margin-top: 20px;
     animation-name: animacion;
     animation-duration: 5s;
     
@@ -109,6 +137,8 @@ p {
     display: flex;
     justify-content: center;
     padding: 5px;
+    margin-right: 60px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -120,6 +150,14 @@ p {
     
 }
 
+.canales b{font-family: 'nugo';
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+#video-conteiner {}
+#video-conteiner iframe{}
+
 .site-footer {padding-top: 20;
     padding-bottom: 20;
     border-top: 1px solid #f1ad5e;
@@ -127,6 +165,26 @@ p {
     width: auto;
     
 }
+.quien b{font-family: 'supposition';
+    font-size: 80px;
+    color: #000000;
+    padding: 50px;
+    margin-left: 550px;
+    }
+
+.somos {font-family: 'oxigen';
+    font-size: 50px;
+    color: #000000;
+    padding: 0px;
+    margin-left: 550px;
+    }
+
+.ideas p{font-family: 'supposition';
+    font-size: 50px;
+    color: #000000;
+    padding: 50px;
+    margin-left: 550px;
+    }
 
 @keyframes colores{
     0%{color: rgb(253, 255, 153)}
