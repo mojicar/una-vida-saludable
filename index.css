@@ -155,8 +155,10 @@ b {
     margin-top: 20px;
 
 }
-#video-conteiner {}
-#video-conteiner iframe{}
+.consejo b{font-family: 'nugo';
+    font-size: 30px;
+    margin-top: 20px;}
+
 
 .site-footer {padding-top: 20;
     padding-bottom: 20;
@@ -185,6 +187,20 @@ b {
     padding: 50px;
     margin-left: 550px;
     }
+
+.escribenos{
+           
+        height:30px;
+         padding:8px 16px;
+         margin-top: 70px;display: flex;
+         flex-direction:row;
+         width: 20%;
+         left: 50%;
+         margin-left: 0px;
+         margin-right: 0px;
+         position:relative;
+         top: 0%"
+}
 
 @keyframes colores{
     0%{color: rgb(253, 255, 153)}
